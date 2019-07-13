@@ -1,0 +1,90 @@
+/* Write some CSS below */
+/*box-shadow: 3px 3px 3px gray;*/
+
+body {
+	margin: 0px;
+	font-family: Oswald;
+	color: #1c2938;
+}
+h1, h2, h3{
+	font-family: Amatic SC;
+}
+h1{
+	color: #f4f6f6;
+	font-size: 50pt;
+	margin-bottom: 0;
+}
+h2{
+	font-size: 30pt;
+	color: #cd3f3e;
+	margin-top: 10px;
+}
+h3{
+	font-size: 30pt;
+	text-align: center;
+}
+p{
+	color: #5e6073;
+}
+a{
+	text-decoration: none;
+	font-size: 15pt;
+	font-weight: bold;
+	color: #1c2938;
+	font-family: Amatic SC;
+}
+a:hover{
+	color: #cd3f3e;
+}
+img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+h4{
+	font-family: Oswald;
+}
+
+.btn-red{
+	padding: 13px 70px;
+	margin: 30px;
+	border-radius: 3px;
+	background-color: #ff9c91;
+	transition: .3s;
+}
+.btn-red:hover{
+	background-color: #f4f6f6;
+}
+
+
+#banner {
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0px 250px 0px;
+	text-align: center;
+}
+
+.card-container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.card {
+background-color: #f4f6f6;
+box-shadow: 0 0 16px rgba(0,0,0,0.1);
+width: 300px;
+text-align: center;
+padding: 24px;
+margin: 0px 10px 80px 10px;
+}
+
+#footer{
+	background-color: #1c2938;
+	height: 30px;
+	margin: 0px;
+	text-align: center;
+}
+#footer h4{
+	color: #cd3f3e;
+}
